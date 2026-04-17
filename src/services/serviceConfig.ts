@@ -22,13 +22,6 @@ export const servicesConfig: ServiceOption[] = [
     route: '/hotels',
   },
   {
-    id: 'chatbot',
-    label: 'AI Chat Bot',
-    icon: '🤖',
-    description: 'Ask the travel assistant for suggestions, itineraries, and booking guidance.',
-    route: '/chatbot',
-  },
-  {
     id: 'villas',
     label: 'Villas & Homestays',
     icon: '🏡',

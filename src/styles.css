@@ -232,6 +232,7 @@ body {
 
 .chat-panel-floating {
   width: min(360px, calc(100vw - 2rem));
+  max-height: calc(100vh - 2rem);
   padding: 1rem;
   display: grid;
   gap: 1rem;
@@ -281,7 +282,8 @@ body {
 }
 
 .chat-window {
-  min-height: 420px;
+  min-height: 240px;
+  max-height: calc(100vh - 16rem);
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -290,6 +292,7 @@ body {
   background: var(--surface-soft);
   border: 1px solid var(--border);
   box-shadow: inset 0 0 0 1px rgba(92, 33, 182, 0.03);
+  overflow-y: auto;
 }
 
 .chat-message {

@@ -5,7 +5,6 @@ import FlightsPage from './pages/FlightsPage';
 import HotelsPage from './pages/HotelsPage';
 import CartPage from './pages/CartPage';
 import AdminPage from './pages/AdminPage';
-import ChatBotPage from './pages/ChatBotPage';
 import ServicePage from './pages/ServicePage';
 import ChatBubble from './components/ChatBubble';
 
@@ -16,7 +15,6 @@ export default function App() {
     { path: '/', label: 'Home', element: <HomePage /> },
     { path: '/flights', label: 'Flights', element: <FlightsPage /> },
     { path: '/hotels', label: 'Hotels', element: <HotelsPage /> },
-    { path: '/chatbot', label: 'AI Chat', element: <ChatBotPage /> },
     { path: '/admin', label: 'Admin', element: <AdminPage /> },
     {
       path: '/cart',
